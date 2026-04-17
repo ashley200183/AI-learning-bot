@@ -1,59 +1,59 @@
 {
   "curriculum": "agentic-learning-plan-v3 (expanded) + foundations",
-  "started": "2026-04-16",
-  "last_session": "2026-04-16",
-  "current_track": "foundations",
-  "current_section": "01-dev-environment",
+  "started": null,
+  "last_session": null,
+  "current_track": null,
+  "current_section": null,
   "current_exercise": null,
   "rubric_threshold": 0.75,
   "gate_minimum_default": 3,
   "foundations": {
-    "track_status": "in_progress",
-    "opt_in": true,
+    "track_status": "not_started",
+    "opt_in": null,
     "sections": {
       "01-dev-environment": {
         "name": "Your Dev Environment",
-        "status": "complete",
+        "status": "unlocked",
         "exercises": {
-          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+          "01-basic": { "status": "not_started", "result": null, "graded": null }
         },
-        "completed": "2026-04-17"
+        "completed": null
       },
       "02-command-line": {
         "name": "Command Line Fundamentals",
-        "status": "complete",
+        "status": "locked",
         "exercises": {
-          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+          "01-basic": { "status": "not_started", "result": null, "graded": null }
         },
-        "completed": "2026-04-17"
+        "completed": null
       },
       "03-git-locally": {
         "name": "Git Locally",
-        "status": "complete",
+        "status": "locked",
         "exercises": {
-          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+          "01-basic": { "status": "not_started", "result": null, "graded": null }
         },
-        "completed": "2026-04-17"
+        "completed": null
       },
       "04-github-remotes": {
         "name": "GitHub & Remotes",
-        "status": "complete",
+        "status": "locked",
         "exercises": {
-          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+          "01-basic": { "status": "not_started", "result": null, "graded": null }
         },
-        "completed": "2026-04-17"
+        "completed": null
       },
       "05-branches-worktrees-envs": {
         "name": "Branches, Worktrees & Environments",
-        "status": "complete",
+        "status": "locked",
         "exercises": {
-          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+          "01-basic": { "status": "not_started", "result": null, "graded": null }
         },
-        "completed": "2026-04-17"
+        "completed": null
       },
       "06-project-anatomy": {
         "name": "Project Anatomy & Running Code",
-        "status": "in_progress",
+        "status": "locked",
         "exercises": {
           "01-basic": { "status": "not_started", "result": null, "graded": null }
         },
@@ -73,7 +73,7 @@
     "01-mental-models": {
       "name": "Mental Models + When NOT to Use Agents",
       "phase_source": "Phase 1",
-      "status": "unlocked",
+      "status": "locked",
       "exercises": {
         "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
       },
