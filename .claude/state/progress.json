@@ -1,0 +1,263 @@
+{
+  "curriculum": "agentic-learning-plan-v3 (expanded) + foundations",
+  "started": "2026-04-16",
+  "last_session": "2026-04-16",
+  "current_track": "foundations",
+  "current_section": "01-dev-environment",
+  "current_exercise": null,
+  "rubric_threshold": 0.75,
+  "gate_minimum_default": 3,
+  "foundations": {
+    "track_status": "in_progress",
+    "opt_in": true,
+    "sections": {
+      "01-dev-environment": {
+        "name": "Your Dev Environment",
+        "status": "complete",
+        "exercises": {
+          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+        },
+        "completed": "2026-04-17"
+      },
+      "02-command-line": {
+        "name": "Command Line Fundamentals",
+        "status": "complete",
+        "exercises": {
+          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+        },
+        "completed": "2026-04-17"
+      },
+      "03-git-locally": {
+        "name": "Git Locally",
+        "status": "complete",
+        "exercises": {
+          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+        },
+        "completed": "2026-04-17"
+      },
+      "04-github-remotes": {
+        "name": "GitHub & Remotes",
+        "status": "complete",
+        "exercises": {
+          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+        },
+        "completed": "2026-04-17"
+      },
+      "05-branches-worktrees-envs": {
+        "name": "Branches, Worktrees & Environments",
+        "status": "complete",
+        "exercises": {
+          "01-basic": { "status": "passed", "result": "pass", "graded": "2026-04-17" }
+        },
+        "completed": "2026-04-17"
+      },
+      "06-project-anatomy": {
+        "name": "Project Anatomy & Running Code",
+        "status": "in_progress",
+        "exercises": {
+          "01-basic": { "status": "not_started", "result": null, "graded": null }
+        },
+        "completed": null
+      },
+      "07-repo-strategy": {
+        "name": "Repo Strategy: Mono vs Poly",
+        "status": "locked",
+        "exercises": {
+          "01-basic": { "status": "not_started", "result": null, "graded": null }
+        },
+        "completed": null
+      }
+    }
+  },
+  "sections": {
+    "01-mental-models": {
+      "name": "Mental Models + When NOT to Use Agents",
+      "phase_source": "Phase 1",
+      "status": "unlocked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "02-skills": {
+      "name": "Skills (with eval intro)",
+      "phase_source": "Phase 2",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "03-commands": {
+      "name": "Commands",
+      "phase_source": "Phase 2.5",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "04-personas-agents": {
+      "name": "Personas & Agents",
+      "phase_source": "Phase 3",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "05-claudemd-forced-eval": {
+      "name": "CLAUDE.md & Forced-Eval",
+      "phase_source": "Phase 4",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "06-context-in-session": {
+      "name": "Context Windows & In-Session Management",
+      "phase_source": "Phase 3.5 (part A)",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "07-cross-session-memory": {
+      "name": "Cross-Session Memory & Handoffs",
+      "phase_source": "Phase 3.5 (part B)",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "08-hooks-basics": {
+      "name": "Hooks Basics",
+      "phase_source": "Phase 4.5 (part A)",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "09-hooks-advanced-safety": {
+      "name": "Hooks Advanced + Safety",
+      "phase_source": "Phase 4.5 (part B) + new",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "10-heartbeats": {
+      "name": "Heartbeats & Temporal Triggers",
+      "phase_source": "new",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "11-forking": {
+      "name": "Forking Conversations",
+      "phase_source": "Phase 5.5",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "12-multi-agent": {
+      "name": "Multi-Agent Thinking",
+      "phase_source": "Phase 5",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "13-worktrees": {
+      "name": "Git Worktrees",
+      "phase_source": "Phase 5.75",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "14-tier2-orchestration": {
+      "name": "Tier 2 — Local Parallel Orchestration",
+      "phase_source": "Phase 6 (part A)",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "15-tier3-orchestration": {
+      "name": "Tier 3 — Cloud Async Orchestration",
+      "phase_source": "Phase 6 (part B)",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "16-debugging": {
+      "name": "Debugging AI Failures",
+      "phase_source": "new",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "17-evals-cost-routing": {
+      "name": "Evals, Benchmarking, Cost & Model Routing",
+      "phase_source": "Phase 7 + merged cost/routing",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "18-mcp-servers": {
+      "name": "MCP Servers",
+      "phase_source": "new",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    },
+    "19-agent-sdk": {
+      "name": "Claude Agent SDK / API",
+      "phase_source": "new",
+      "status": "locked",
+      "exercises": {
+        "01-basic": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null },
+        "02-cumulative": { "status": "not_started", "score": null, "max": null, "gates_passed": null, "graded": null }
+      },
+      "completed": null
+    }
+  }
+}
